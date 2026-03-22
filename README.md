@@ -1,4 +1,4 @@
-# X5 RetailHero Uplift Modeling
+# X5 Uplift Modeling
 
 Репозиторий для EDA, feature engineering и baseline uplift-моделирования на датасете X5 RetailHero.
 
