@@ -1,6 +1,6 @@
 # X5 Uplift Modeling
 
-Репозиторий для EDA, feature engineering и baseline uplift-моделирования на датасете X5 RetailHero.
+Репозиторий для EDA, feature engineering и baseline uplift-моделирования на датасете X5
 
 ## Структура
 - `data/raw/` — исходные CSV-файлы
