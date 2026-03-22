@@ -1,0 +1,5 @@
+table,rows,cols,duplicates,missing_total
+clients,400162,5,0,35469
+products,43038,11,0,6821
+uplift_train,200039,3,0,0
+uplift_test,200123,1,0,0

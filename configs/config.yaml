@@ -1,0 +1,32 @@
+paths:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  figures_dir: reports/figures
+  tables_dir: reports/tables
+
+files:
+  clients: clients.csv
+  products: products.csv
+  purchases: purchases.csv
+  uplift_train: uplift_train.csv
+  uplift_test: uplift_test.csv
+
+columns:
+  client_id: client_id
+  product_id: product_id
+  transaction_id: transaction_id
+  transaction_datetime: transaction_datetime
+  purchase_sum: purchase_sum
+  product_quantity: product_quantity
+  store_id: store_id
+  treatment: treatment_flg
+  target: target
+  first_issue_date: first_issue_date
+  first_redeem_date: first_redeem_date
+  age: age
+  gender: gender
+
+feature_engineering:
+  chunk_size: 500000
+  recent_windows_days: [7, 30, 90]
+  campaign_date_source: max_train_date_minus_1day

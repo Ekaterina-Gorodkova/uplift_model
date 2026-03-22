@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.pyo
+*.parquet
+*.pkl
+.DS_Store
+artifacts/models/*
+artifacts/encoders/*
+artifacts/submissions/*
+reports/figures/*
+reports/uplift_curves/*
+data/
